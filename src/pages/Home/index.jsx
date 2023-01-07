@@ -16,8 +16,8 @@ export const Home = () => {
         <Header />
       </Row>
       <Row>
-        {/* <Image src={contentBG} preview={false} /> */}
-        <Image src={img1} preview={false} />
+        <Image src={contentBG} preview={false} />
+        {/* <Image src={img1} preview={false} /> */}
         {/* <CarouselComponent /> */}
       </Row>
       <Row>
