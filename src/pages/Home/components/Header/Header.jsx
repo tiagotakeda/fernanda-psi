@@ -1,8 +1,11 @@
 import { Row, Col, Typography, Image, Button } from "antd";
 import { PhoneOutlined } from "@ant-design/icons";
 import logo from "../../../../assets/LogoSemFundoSemBorda.png";
+import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
+  const navigate = useNavigate();
+
   const { Text } = Typography;
   return (
     <Col span={24}>
@@ -14,29 +17,29 @@ export const Header = () => {
       >
         <Col span={4}>
           <Row justify="center">
-            <Image src={logo} preview={false} height={"8rem"} />
+            <Button
+              ghost
+              type="text"
+              onClick={() => {
+                navigate("/", { replace: true });
+              }}
+              style={{ height: "80%" }}
+            >
+              <Image src={logo} preview={false} height={"5rem"} />
+            </Button>
           </Row>
         </Col>
         <Col span={20}>
-          <Row justify="center" style={{ height: "60%", alignItems: "center" }}>
-            <Text
-              style={{
-                color: "white",
-                fontSize: "1.5rem",
-                fontWeight: "bold",
-              }}
-            >
-              <PhoneOutlined
-                style={{ color: "white", marginInline: ".5rem" }}
-                rotate={"90"}
-              />
-              Atendimento: (11) 99999-9999
-            </Text>
-          </Row>
-          <Row style={{ height: "40%", alignItems: "center" }}>
-            <Col span={6}>
+          <Row style={{ height: "80%", alignItems: "center" }}>
+            <Col span={12}>
               <Row justify="center">
-                <Button ghost type="text">
+                <Button
+                  ghost
+                  type="text"
+                  onClick={() => {
+                    navigate("/services", { replace: true });
+                  }}
+                >
                   <Text
                     style={{
                       color: "white",
@@ -44,12 +47,12 @@ export const Header = () => {
                       fontWeight: "bold",
                     }}
                   >
-                    Atendimento
+                    Serviços
                   </Text>
                 </Button>
               </Row>
             </Col>
-            <Col span={6}>
+            {/* <Col span={6}>
               <Row justify="center">
                 <Button ghost type="text">
                   <Text
@@ -63,10 +66,16 @@ export const Header = () => {
                   </Text>
                 </Button>
               </Row>
-            </Col>
-            <Col span={6}>
+            </Col> */}
+            <Col span={12}>
               <Row justify="center">
-                <Button ghost type="text">
+                <Button
+                  ghost
+                  type="text"
+                  onClick={() => {
+                    navigate("/about", { replace: true });
+                  }}
+                >
                   <Text
                     style={{
                       color: "white",
@@ -74,12 +83,12 @@ export const Header = () => {
                       fontWeight: "bold",
                     }}
                   >
-                    Sobre
+                    Sobre Mim
                   </Text>
                 </Button>
               </Row>
             </Col>
-            <Col span={6}>
+            {/* <Col span={6}>
               <Row justify="center">
                 <Button ghost type="text">
                   <Text
@@ -93,7 +102,7 @@ export const Header = () => {
                   </Text>
                 </Button>
               </Row>
-            </Col>
+            </Col> */}
           </Row>
         </Col>
       </Row>

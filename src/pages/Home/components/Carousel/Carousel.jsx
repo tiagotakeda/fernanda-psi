@@ -1,5 +1,9 @@
-import { Row, Col, Carousel, Image } from "antd";
-import { PhoneOutlined } from "@ant-design/icons";
+import { Row, Col, Image } from "antd";
+
+import "../../../../styles.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+
 import img1 from "../../../../assets/carousel/64617.jpg";
 import img2 from "../../../../assets/carousel/businesswoman-talking-her-psychologist.jpg";
 import img3 from "../../../../assets/carousel/old-patient-suffering-from-parkinson.jpg";
@@ -14,39 +18,16 @@ const contentStyle = {
 };
 
 export const CarouselComponent = () => {
-  return (
-    // <Col span={24}>
-    <Row>
-      <Col span={24}>
-        <Carousel autoplay>
-          <div>
-            <h3 style={contentStyle}>
-              {/* <Image src={img1} preview={false} /> */}1
-            </h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>
-              {/* <Image src={img2} preview={false} /> */}2
-            </h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>
-              {/* <Image src={img2} preview={false} /> */}3
-            </h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>
-              {/* <Image src={img3} preview={false} /> */}4
-            </h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>
-              {/* <Image src={img4} preview={false} /> */}5
-            </h3>
-          </div>
-        </Carousel>
-      </Col>
-    </Row>
-    // </Col>
-  );
+  <Col span={24}>
+    {/* <Image src={img1} preview={false} /> */}
+    {/* <Image src={img2} preview={false} /> */}
+    <Carousel showArrows={true} useKeyboardArrows className="carousel">
+      <div>
+        <img src={img1} />
+      </div>
+      <div>
+        <img src={img2} />
+      </div>
+    </Carousel>
+  </Col>;
 };

@@ -13,15 +13,16 @@ export const Footer = () => {
         style={{
           background: "#D99594",
         }}
+        justify="space-between"
       >
         <Col span={6}>
           <Row justify="center" style={{ marginBlock: "1rem" }}>
             <Image src={logo} preview={false} height={"8rem"} />
           </Row>
         </Col>
-        <Col span={6}>
+        {/* <Col span={6}>
           <MoreInformation />
-        </Col>
+        </Col> */}
         <Col span={6}>
           <ImportantLinks />
         </Col>
