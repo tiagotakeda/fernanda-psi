@@ -54,7 +54,11 @@ export const AboutMe = () => {
                 <Title level={4}>Que bom te ver por aqui !</Title>
               </Row>
               <Row style={{ paddingInline: "2rem" }}>
-                <Title level={4} type="secondary">
+                <Title
+                  level={4}
+                  type="secondary"
+                  style={{ fontWeight: "normal" }}
+                >
                   Meu interesse pela psicologia clínica começou desde pequena,
                   quando entrei em contato com a terapia, estando no lugar de
                   analisanda. Desde então, venho me dedicando ao estudo do
@@ -62,7 +66,11 @@ export const AboutMe = () => {
                 </Title>
               </Row>
               <Row style={{ paddingInline: "2rem" }}>
-                <Title level={4} type="secondary">
+                <Title
+                  level={4}
+                  type="secondary"
+                  style={{ fontWeight: "normal" }}
+                >
                   Em 2008, iniciei minha atuação como psicóloga clínica, também
                   atuei em RH, mais nunca deixei de clinicar. Em 2018, me
                   adequei ao atendimento online e iniciei também essa nova
@@ -70,7 +78,11 @@ export const AboutMe = () => {
                 </Title>
               </Row>
               <Row style={{ paddingInline: "2rem" }}>
-                <Title level={4} type="secondary">
+                <Title
+                  level={4}
+                  type="secondary"
+                  style={{ fontWeight: "normal" }}
+                >
                   Meu compromisso ético enquanto profissional seguem os
                   princípios fundamentais do código de ética da psicologia
                   (artigo II) onde O psicólogo trabalhará visando promover a

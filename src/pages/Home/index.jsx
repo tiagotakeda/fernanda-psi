@@ -127,7 +127,11 @@ export const Home = () => {
                 </Title>
               </Row>
               <Row style={{ marginBlock: "2rem" }}>
-                <Title level={4} type="secondary">
+                <Title
+                  level={4}
+                  type="secondary"
+                  style={{ fontWeight: "normal" }}
+                >
                   A Terapia Online é uma modalidade de atendimento psicológico
                   reconhecida pelo CFP – Conselho Federal de Psicologia e
                   regulamentada pela Resolução nº 11/2018 juntamente com o
@@ -141,7 +145,11 @@ export const Home = () => {
                 </Title>
               </Row>
               <Row style={{ marginBlock: "2rem" }}>
-                <Title level={4} type="secondary">
+                <Title
+                  level={4}
+                  type="secondary"
+                  style={{ fontWeight: "normal" }}
+                >
                   Esse é um espaço seguro, onde você pode falar dos seus
                   sentimentos sem julgamentos. Não deixe sua saúde em segundo
                   lugar, marque sua consulta agora, e te atenderei de onde você

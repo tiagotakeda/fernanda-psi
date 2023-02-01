@@ -49,7 +49,11 @@ export const HowItWorks = () => {
               </Row>
 
               <Row style={{ paddingInline: "2rem" }}>
-                <Title level={4} type="secondary">
+                <Title
+                  level={4}
+                  type="secondary"
+                  style={{ fontWeight: "normal" }}
+                >
                   A terapia online é uma modalidade de atendimento psicoterápico
                   ético e eficiente, que se adapta à nossa vida moderna. Toda a
                   comunicação entre paciente e psicóloga é realizada através de
@@ -59,7 +63,11 @@ export const HowItWorks = () => {
               </Row>
 
               <Row style={{ paddingInline: "2rem" }}>
-                <Title level={4} type="secondary">
+                <Title
+                  level={4}
+                  type="secondary"
+                  style={{ fontWeight: "normal" }}
+                >
                   É necessário que o atendimento seja feito através de um
                   computador ou dispositivo (CELULAR ou TABLET) com conexão
                   estável de banda larga na Internet. Webcam, microfone,
