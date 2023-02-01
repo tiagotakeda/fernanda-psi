@@ -4,7 +4,7 @@ export const Service = ({ title, description }) => {
   const { Title } = Typography;
 
   return (
-    <Card hoverable style={{ height: "100%" }}>
+    <Card hoverable style={{ height: "100%", cursor: "default" }}>
       <Row justify="center" style={{ marginTop: "5px" }}>
         <Title
           level={3}
@@ -15,7 +15,11 @@ export const Service = ({ title, description }) => {
       </Row>
       <Row justify="center" style={{ marginBottom: "3rem" }}>
         <Col span={20}>
-          <Title level={4} type="secondary" style={{ textAlign: "justify" }}>
+          <Title
+            level={4}
+            type="secondary"
+            style={{ textAlign: "justify", fontWeight: "normal" }}
+          >
             {description}
           </Title>
         </Col>
