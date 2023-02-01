@@ -57,7 +57,7 @@ export const Services = () => {
 
                 <Col span={12} xs={24} sm={24} md={12}>
                   <Service
-                    title="Terapia para Mulheres em Relacionamentos Abusivos"
+                    title="Terapia para Mulheres em Relacionamento Abusivo"
                     description="Destinado a você que se sente confusa e culpada no seu
                     relacionamento. Sabe que algo não está bem, que você
                     não consegue ser você mesma, mas se sente presa,
