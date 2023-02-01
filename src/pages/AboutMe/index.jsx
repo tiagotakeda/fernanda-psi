@@ -13,6 +13,7 @@ import { Header } from "../../components/Header/Header";
 import { Footer } from "../../components/Footer/Footer";
 
 import img from "../../assets/carousel/old-patient-suffering-from-parkinson.jpg";
+import img2 from "../../assets/fotoFernanda.png";
 
 export const AboutMe = () => {
   const { Text, Paragraph, Title } = Typography;
@@ -79,6 +80,7 @@ export const AboutMe = () => {
                   opressão.
                 </Title>
               </Row>
+
               <Row style={{ paddingInline: "2rem" }}>
                 <Title level={4}>
                   Juntos iremos pensar em estratégias e técnicas que te ajudem a
@@ -86,9 +88,13 @@ export const AboutMe = () => {
                   amor próprio e cultivando relações saudáveis.
                 </Title>
               </Row>
-              <Row justify="center" style={{ marginTop: "2rem" }}>
-                <Image src={img} preview={false} height={"25rem"} />
+
+              <Row justify="center">
+                <Image src={img2} preview={false} height="250px" />
               </Row>
+              {/* <Row justify="center" style={{ marginTop: "2rem" }}>
+                <Image src={img} preview={false} />
+              </Row> */}
             </Col>
           </Card>
         </ConfigProvider>

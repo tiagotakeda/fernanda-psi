@@ -15,14 +15,27 @@ export const Header = () => {
         },
       }}
     >
-      <Col span={24}>
+      <Col
+        span={24}
+        style={{
+          background: "#F8ADAC",
+        }}
+      >
         <Row
           style={{
-            background: "#F8ADAC",
-            paddingBlock: "1rem",
+            marginTop: "25px",
+            marginBottom: "15px",
           }}
         >
-          <Col span={4}>
+          <Col
+            xs={24}
+            sm={24}
+            md={4}
+            lg={4}
+            xl={4}
+            xxl={4}
+            style={{ marginBottom: "15px" }}
+          >
             <Row justify="center">
               <Button
                 ghost
@@ -36,10 +49,15 @@ export const Header = () => {
               </Button>
             </Row>
           </Col>
-          <Col span={20}>
-            <Row style={{ height: "80%", alignItems: "center" }}>
-              <Col span={8}>
-                <Row justify="center">
+          <Col xs={24} sm={24} md={20} lg={20} xl={20} xxl={20}>
+            <Row
+              style={{
+                height: "80%",
+                alignItems: "center",
+              }}
+            >
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <Row justify="center" style={{ marginBottom: "10px" }}>
                   <Button
                     ghost
                     type="text"
@@ -59,8 +77,8 @@ export const Header = () => {
                 </Row>
               </Col>
 
-              <Col span={8}>
-                <Row justify="center">
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <Row justify="center" style={{ marginBottom: "10px" }}>
                   <Button
                     ghost
                     type="text"
@@ -80,8 +98,8 @@ export const Header = () => {
                 </Row>
               </Col>
 
-              <Col span={8}>
-                <Row justify="center">
+              <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8}>
+                <Row justify="center" style={{ marginBottom: "10px" }}>
                   <Button
                     ghost
                     type="text"

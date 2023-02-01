@@ -78,7 +78,7 @@ export const Home = () => {
           minHeight: "70vh",
         }}
       >
-        <Card style={imageYPosition}>
+        {/* <Card style={imageYPosition}>
           <Row
             justify="end"
             align="middle"
@@ -88,10 +88,6 @@ export const Home = () => {
               height: "4rem",
             }}
           >
-            {/* <Title level={5} style={{ color: "white", marginBottom: "1.5rem" }}>
-              Terapia Online
-            </Title> */}
-
             <Button
               ghost
               type="text"
@@ -106,7 +102,7 @@ export const Home = () => {
               <Image src={whats2} preview={false} height={"3rem"} />
             </Button>
           </Row>
-        </Card>
+        </Card> */}
         <ConfigProvider
           theme={{
             token: {
@@ -173,7 +169,9 @@ export const Home = () => {
                     window.open("https://wa.me/5511997383350");
                   }}
                   style={{
-                    minWidth: "20rem",
+                    minWidth: "250px",
+                    width: "60%",
+                    maxWidth: "350px",
                     height: "5rem",
                     background: "#B33A3C",
                   }}

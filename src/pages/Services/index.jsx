@@ -42,7 +42,7 @@ export const Services = () => {
               </Row>
 
               <Row gutter={[16, 16]} style={{ marginBottom: "1rem" }}>
-                <Col span={12}>
+                <Col span={12} xs={24} sm={24} md={12}>
                   <Service
                     title="Psicoterapia individual"
                     description="Esse atendimento destina-se a pessoas que estão
@@ -55,7 +55,7 @@ export const Services = () => {
                   />
                 </Col>
 
-                <Col span={12}>
+                <Col span={12} xs={24} sm={24} md={12}>
                   <Service
                     title="Terapia para Mulheres em Relacionamentos Abusivos"
                     description="Destinado a você que se sente confusa e culpada no seu
@@ -68,7 +68,14 @@ export const Services = () => {
               </Row>
 
               <Row gutter={[16, 16]} style={{ marginBottom: "1rem" }}>
-                <Col span={12}>
+                <Col span={12} xs={24} sm={24} md={12}>
+                  <Service
+                    title="Terapia online durante a gravidez e o pós parto"
+                    description="O puerpério é uma fase muito especial na vida da mulher em que ela vivencia  um processo de profunda reconfiguração de sua identidade feminina. É um processo emocional sem tempo definido e cada uma o viverá de uma forma muito específica. Os atendimentos on line oferecem o formato ideal numa fase em que há tantas exigências e até mesmo limitações para a realização das sessões presenciais."
+                  />
+                </Col>
+
+                <Col span={12} xs={24} sm={24} md={12}>
                   <Service
                     title="Terapia para brasileiros que moram no exterior"
                     description="Esse serviço é uma alternativa para brasileiros que
@@ -78,8 +85,10 @@ export const Services = () => {
                     processo de mudança."
                   />
                 </Col>
+              </Row>
 
-                <Col span={12}>
+              <Row gutter={[16, 16]} style={{ marginBottom: "1rem" }}>
+                <Col span={12} xs={24} sm={24} md={12}>
                   <Service
                     title="Orientação sobre conflitos familiares"
                     description="Tem como objetivo orientar individualmente as pessoas
@@ -88,10 +97,8 @@ export const Services = () => {
                     traição ou brigas constantes."
                   />
                 </Col>
-              </Row>
 
-              <Row gutter={[16, 16]} style={{ marginBottom: "1rem" }}>
-                <Col span={12}>
+                <Col span={12} xs={24} sm={24} md={12}>
                   <Service
                     title="Orientação de pais"
                     description="Tem como objetivo capacitar os pais para lidarem com
@@ -101,20 +108,10 @@ export const Services = () => {
                     com a melhora da qualidade de vida da família."
                   />
                 </Col>
-
-                <Col span={12}>
-                  <Service
-                    title="Mentoria para Psicólogos Recém-formados"
-                    description="Normalmente nos sentimos perdidos quando saímos da graduação
-                    e isso nos causa inseguranças. A mentoria tem a proposta de
-                    te auxiliar nesse início e dessa forma te ajudar a passar
-                    pelos dilemas de como iniciar na carreira clínica."
-                  />
-                </Col>
               </Row>
 
               <Row gutter={[16, 16]} justify="center">
-                <Col span={12}>
+                <Col span={12} xs={24} sm={24} md={24}>
                   <Service
                     title="Mentoria para Psicólogos Recém-formados"
                     description="Normalmente nos sentimos perdidos quando saímos da graduação

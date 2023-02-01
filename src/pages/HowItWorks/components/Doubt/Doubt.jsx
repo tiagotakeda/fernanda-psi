@@ -1,21 +1,21 @@
 import { Row, Col, Card, Typography } from "antd";
 
-export const Service = ({ title, description }) => {
+export const Doubt = ({ title, description }) => {
   const { Title } = Typography;
 
   return (
-    <Card hoverable style={{ height: "100%" }}>
+    <Card hoverable style={{ height: "100%", minWidth: "100%" }}>
       <Row justify="center" style={{ marginTop: "5px" }}>
         <Title
           level={3}
-          style={{ margin: "0px", width: "83%", textAlign: "left" }}
+          style={{ margin: "0px", width: "80%", textAlign: "left" }}
         >
           {title}
         </Title>
       </Row>
-      <Row justify="center" style={{ marginBottom: "3rem" }}>
+      <Row justify="center">
         <Col span={20}>
-          <Title level={4} type="secondary" style={{ textAlign: "justify" }}>
+          <Title level={4} type="secondary">
             {description}
           </Title>
         </Col>
