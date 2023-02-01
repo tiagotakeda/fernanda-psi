@@ -190,7 +190,7 @@ export const Home = () => {
                             style={{
                               color: "white",
                               fontWeight: "bold",
-                              fontSize: "1.5rem",
+                              fontSize: "22px",
                             }}
                           >
                             Terapia Online
